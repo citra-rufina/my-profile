@@ -1,0 +1,137 @@
+body {
+	color: #36465D; 
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	background-image: url(images/test2.jpg);
+}
+h1 {
+	font-size: 50px;
+	text-shadow: 3px 3px 3px #ffd0cf;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 20px;
+	text-shadow: 1px 3px 1px #ffd0cf;
+}
+h1,h2,h3 {
+	text-transform: uppercase
+}
+p {
+	color: grey;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+ul {
+	list-style: none;
+	padding: 10px;
+	font-weight: lighter;
+	text-transform: capitalize;
+}
+a {
+	color: #36465D;
+	text-decoration: none;
+}
+a:hover {
+	color:pink;
+}
+/* Custom Design with Class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-beige {
+	background-color: ivory;
+	padding: 10px;
+    box-shadow: 2px 2px 10px beige;
+    border-radius: 3px;
+    margin: 10px auto;
+}
+.profile {
+	width: 300px;
+	border-radius: 50%;
+}
+.img-circle {
+	border-radius: 50%;
+	width: 80px;
+	margin: 12px 20px;
+}
+.img-bordered {
+	border: 5px solid #ffd0cf;
+}
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+.list-inline i {
+	font-size: 60px;
+}
+.list-inline i:hover {
+	background-color: white;
+	color: #ffd0cf;
+}
+.btn-blue {
+	background-color: #36465D;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 4px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.btn-blue:hover {
+	background-color: white;
+	color: grey;
+	border: 2px solid grey;
+}
+/* Custom Design with ID */
+#intro {
+    text-align: center;
+    padding: 20px 20px;
+}
+#intro p {
+	margin-bottom: 20px;
+}
+/* Responsive Design Set Up */
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+	.img-circle {
+		width: 45px;
+		margin: 5px 18px;
+	}
+	.list-inline i {
+		font-size: 40px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 400px;
+	}
+	.profile {
+		width: 150px
+	}
+	h1,h2 {
+		font-size: 20px
+	}
+	p {
+		font-size: 15px;
+	}
+	.img-circle {
+	width: 30px;
+	margin: 5px 18px;
+	}
+	.img-bordered {
+		border: 3px;
+	}
+	.list-inline i {
+		font-size: 30px;
+	}
+}
